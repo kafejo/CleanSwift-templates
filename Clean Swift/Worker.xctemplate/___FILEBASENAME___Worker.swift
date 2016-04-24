@@ -9,9 +9,9 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___Worker {
-  // MARK: Business Logic
+    // MARK: Business Logic
   
-  func doSomeWork() {
-    // NOTE: Do the work
-  }
+    func doSomeWork() {
+        // NOTE: Do the work
+    }
 }

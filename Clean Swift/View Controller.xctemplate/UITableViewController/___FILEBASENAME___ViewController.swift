@@ -11,11 +11,11 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerInput{
+protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerInput {
     func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput{
+protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
     func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Request)
 }
 

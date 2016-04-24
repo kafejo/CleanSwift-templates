@@ -10,7 +10,7 @@
 import XCTest
 
 class ___FILEBASENAMEASIDENTIFIER___PresenterTests: XCTestCase {
-  // MARK: Subject under test
+    // MARK: Subject under test
         
     var sut: ___FILEBASENAMEASIDENTIFIER___Presenter!
     

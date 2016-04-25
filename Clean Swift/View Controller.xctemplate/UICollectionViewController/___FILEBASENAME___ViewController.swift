@@ -11,53 +11,46 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerInput
-{
-  func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
+protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerInput {
+    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput
-{
-  func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Request)
+protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
+    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Request)
 }
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UICollectionViewController, ___FILEBASENAMEASIDENTIFIER___ViewControllerInput
-{
-  var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
-  var router: ___FILEBASENAMEASIDENTIFIER___Router!
-  
-  // MARK: Object lifecycle
-  
-  override func awakeFromNib()
-  {
-    super.awakeFromNib()
-    ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance.configure(self)
-  }
-  
-  // MARK: View lifecycle
-  
-  override func viewDidLoad()
-  {
-    super.viewDidLoad()
-    doSomethingOnLoad()
-  }
-  
-  // MARK: Event handling
-  
-  func doSomethingOnLoad()
-  {
-    // NOTE: Ask the Interactor to do some work
+class ___FILEBASENAMEASIDENTIFIER___ViewController: UICollectionViewController, ___FILEBASENAMEASIDENTIFIER___ViewControllerInput {
+    var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
+    var router: ___FILEBASENAMEASIDENTIFIER___Router!
     
-    let request = ___FILEBASENAMEASIDENTIFIER___Request()
-    output.doSomething(request)
-  }
+    // MARK: Object lifecycle
   
-  // MARK: Display logic
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance.configure(self)
+    }
   
-  func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
-  {
-    // NOTE: Display the result from the Presenter
+    // MARK: View lifecycle
+  
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        doSomethingOnLoad()
+    }
     
-    // nameTextField.text = viewModel.name
-  }
+    // MARK: Event handling
+    
+    func doSomethingOnLoad() {
+        // NOTE: Ask the Interactor to do some work
+    
+        let request = ___FILEBASENAMEASIDENTIFIER___Request()
+        output.doSomething(request)
+    }
+    
+    // MARK: Display logic
+    
+    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel) {
+        // NOTE: Display the result from the Presenter
+        
+        // nameTextField.text = viewModel.name
+    }
 }

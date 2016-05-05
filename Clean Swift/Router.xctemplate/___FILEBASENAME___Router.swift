@@ -15,7 +15,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___RouterInput {
 class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___RouterInput {
     weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController!
     
-    // MARK: Navigation
+    // - MARK: Navigation
     
     func navigateToSomewhere() {
         // NOTE: Teach the router how to navigate to another scene. Some examples follow:
@@ -35,7 +35,7 @@ class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___Router
         // viewController.navigationController?.pushViewController(someWhereViewController, animated: true)
     }
   
-    // MARK: Communication
+    // - MARK: Communication
     
     func passDataToNextScene(segue: UIStoryboardSegue) {
         // NOTE: Teach the router which scenes it can communicate with

@@ -20,21 +20,21 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController, ___FI
     var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
     var router: ___FILEBASENAMEASIDENTIFIER___Router!
     
-    // MARK: Object lifecycle
+    // MARK: - Object lifecycle
     
     override func awakeFromNib() {
         super.awakeFromNib()
         ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance.configure(self)
     }
   
-    // MARK: View lifecycle
+    // MARK: - View lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         doSomethingOnLoad()
     }
   
-    // MARK: Event handling
+    // MARK: - Event handling
     
     func doSomethingOnLoad() {
         // NOTE: Ask the Interactor to do some work
@@ -43,7 +43,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController, ___FI
         output.doSomething(request)
     }
   
-    // MARK: Display logic
+    // MARK: - Display logic
     
     func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel) {
         // NOTE: Display the result from the Presenter

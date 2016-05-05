@@ -10,12 +10,13 @@
 import XCTest
 
 class ___FILEBASENAMEASIDENTIFIER___ViewControllerTests: XCTestCase {
-    // MARK: Subject under test
+
+    // MARK: - Subject under test
     
     var sut: ___FILEBASENAMEASIDENTIFIER___ViewController!
     var window: UIWindow!
     
-    // MARK: Test lifecycle
+    // MARK: - Test lifecycle
     
     override func setUp() {
         super.setUp()
@@ -28,7 +29,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewControllerTests: XCTestCase {
         super.tearDown()
     }
     
-    // MARK: Test setup
+    // MARK: - Test setup
     
     func setup___FILEBASENAMEASIDENTIFIER___ViewController() {
         let bundle = NSBundle.mainBundle()
@@ -41,9 +42,9 @@ class ___FILEBASENAMEASIDENTIFIER___ViewControllerTests: XCTestCase {
         NSRunLoop.currentRunLoop().runUntilDate(NSDate())
     }
     
-    // MARK: Test doubles
+    // MARK: - Test doubles
     
-    // MARK: Tests
+    // MARK: - Tests
     
     func testSomething() {
         // Given

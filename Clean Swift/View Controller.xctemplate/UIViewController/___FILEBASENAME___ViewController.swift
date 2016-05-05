@@ -26,7 +26,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
     var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
     var router: ___FILEBASENAMEASIDENTIFIER___Router!
   
-    // MARK: Object lifecycle
+    // MARK: - Object lifecycle
   
     override func awakeFromNib()
     {
@@ -34,7 +34,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
         ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance.configure(self)
     }
   
-    // MARK: View lifecycle
+    // MARK: - View lifecycle
   
     override func viewDidLoad()
     {
@@ -42,7 +42,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
         doSomethingOnLoad()
     }
   
-    // MARK: Event handling
+    // MARK: - Event handling
   
     func doSomethingOnLoad()
     {
@@ -52,7 +52,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
         output.doSomething(request)
     }
   
-    // MARK: Display logic
+    // MARK: - Display logic
   
     func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
     {

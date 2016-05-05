@@ -23,7 +23,7 @@ extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER__
 }
 
 class ___FILEBASENAMEASIDENTIFIER___Configurator {
-    // MARK: Object lifecycle
+    // MARK: - Object lifecycle
   
     class var sharedInstance: ___FILEBASENAMEASIDENTIFIER___Configurator {
         struct Static {
@@ -38,7 +38,7 @@ class ___FILEBASENAMEASIDENTIFIER___Configurator {
         return Static.instance!
     }
     
-    // MARK: Configuration
+    // MARK: - Configuration
     
     func configure(viewController: ___FILEBASENAMEASIDENTIFIER___ViewController) {
         let router = ___FILEBASENAMEASIDENTIFIER___Router()

@@ -20,7 +20,7 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___In
     var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput!
     var worker: ___FILEBASENAMEASIDENTIFIER___Worker!
     
-    // MARK: Business logic
+    // MARK: - Business logic
     
     func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Request) {
         // NOTE: Create some Worker to do the work

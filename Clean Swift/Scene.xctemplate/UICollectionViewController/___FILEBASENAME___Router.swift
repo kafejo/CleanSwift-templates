@@ -35,7 +35,7 @@ class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___Router
         // viewController.navigationController?.pushViewController(someWhereViewController, animated: true)
     }
   
-    // - MARK: Communication
+    // MARK: - Communication
     
     func passDataToNextScene(segue: UIStoryboardSegue) {
         // NOTE: Teach the router which scenes it can communicate with

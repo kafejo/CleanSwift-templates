@@ -8,15 +8,11 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorInput {
-    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Request)
-}
-
 protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
     func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___Response)
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput {
+class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
     var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput!
     var worker: ___FILEBASENAMEASIDENTIFIER___Worker!
     

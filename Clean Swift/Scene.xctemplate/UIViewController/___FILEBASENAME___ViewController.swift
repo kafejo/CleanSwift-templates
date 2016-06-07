@@ -17,24 +17,21 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
     
     // MARK: - Object lifecycle
     
-    override func awakeFromNib()
-    {
+    override func awakeFromNib() {
         super.awakeFromNib()
         ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance.configure(self)
     }
     
     // MARK: - View lifecycle
     
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
         doSomethingOnLoad()
     }
     
     // MARK: - Event handling
     
-    func doSomethingOnLoad()
-    {
+    func doSomethingOnLoad() {
         // NOTE: Ask the Interactor to do some work
         
         let request = ___FILEBASENAMEASIDENTIFIER___Request()
@@ -43,8 +40,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
     
     // MARK: - Display logic
     
-    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
-    {
+    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel) {
         // NOTE: Display the result from the Presenter
         
         // nameTextField.text = viewModel.name

@@ -14,35 +14,35 @@ protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
     var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
     var router: ___FILEBASENAMEASIDENTIFIER___Router!
-  
+
     // MARK: - Object lifecycle
-  
+
     override func awakeFromNib() {
         super.awakeFromNib()
         ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance.configure(self)
     }
-  
+
     // MARK: - View lifecycle
-  
+
     override func viewDidLoad() {
         super.viewDidLoad()
         doSomethingOnLoad()
     }
-  
+
     // MARK: - Event handling
-  
+
     func doSomethingOnLoad() {
         // NOTE: Ask the Interactor to do some work
-    
+
         let request = ___FILEBASENAMEASIDENTIFIER___Request()
         output.doSomething(request)
     }
-  
+
     // MARK: - Display logic
-  
+
     func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel) {
         // NOTE: Display the result from the Presenter
-    
+
         // nameTextField.text = viewModel.name
     }
 }

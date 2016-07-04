@@ -13,7 +13,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class {
 }
 
 class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
-    weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput!
+    weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput?
 
     // MARK: - Presentation logic
 
@@ -21,6 +21,6 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Int
         // NOTE: Format the response from the Interactor and pass the result back to the View Controller
 
         let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
-        output.displaySomething(viewModel)
+        output?.displaySomething(viewModel)
     }
 }

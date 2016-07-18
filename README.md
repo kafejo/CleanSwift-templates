@@ -29,9 +29,11 @@ To uninstall the Clean Swift Xcode templates, run:
 > make uninstall_templates
 
 
-## Author
+## Authors
 
 Aleš Kocur, ales@thefuntasty.com
+Jakub Knejzlík, jakub.knejzlik@thefuntasty.com
+Matěj K. Jirásek, matej.jirasek@thefuntasty.com
 
 ## License
 

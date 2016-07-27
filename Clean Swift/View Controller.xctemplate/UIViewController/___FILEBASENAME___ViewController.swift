@@ -13,7 +13,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
     var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
-    var router: ___FILEBASENAMEASIDENTIFIER___Router!
+    var router: ___FILEBASENAMEASIDENTIFIER___RouterInput!
 
     // MARK: - Object lifecycle
 

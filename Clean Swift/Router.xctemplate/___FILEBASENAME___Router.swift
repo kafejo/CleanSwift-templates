@@ -9,6 +9,7 @@
 import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___RouterInput {
+    func passDataToNextScene(segue: UIStoryboardSegue)
     func navigateToSomewhere()
 }
 

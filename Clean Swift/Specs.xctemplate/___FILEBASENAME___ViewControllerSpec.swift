@@ -35,8 +35,10 @@ class ___FILEBASENAMEASIDENTIFIER___ViewControllerSpec: QuickSpec {
                 window = UIWindow()
             }
 
-            it(<# it can do something #>) {
+            it("<# it can do something #>") {
                 // given
+                let outputSpy = ___FILEBASENAMEASIDENTIFIER___ViewControllerOutputSpy()
+                sut.output = outputSpy
 
                 // when
                 window.addSubview(sut.view)

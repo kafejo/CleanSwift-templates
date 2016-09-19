@@ -39,7 +39,7 @@ class ___FILEBASENAMEASIDENTIFIER___InteractorSpec: QuickSpec {
                 sut = ___FILEBASENAMEASIDENTIFIER___Interactor()
             }
 
-            it(<# it can do something #>) {
+            it("<# it can do something #>") {
                 // when
                 let outputSpy = ___FILEBASENAMEASIDENTIFIER___InteractorOutputSpy()
                 sut.output = outputSpy

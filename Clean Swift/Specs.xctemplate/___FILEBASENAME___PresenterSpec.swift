@@ -6,41 +6,43 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
+import Quick
+import Nimble
+
 @testable import ___PROJECTNAME___
-import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___PresenterTests: XCTestCase {
+class ___FILEBASENAMEASIDENTIFIER___PresenterSpec: QuickSpec {
 
-    // MARK: - Subject under test
+    // MARK: - Output Spy
 
-    var sut: ___FILEBASENAMEASIDENTIFIER___Presenter!
+    class ___FILEBASENAMEASIDENTIFIER___PresenterOutputSpy: ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
 
-    // MARK: - Test lifecycle
-
-    override func setUp() {
-        super.setUp()
-        setup___FILEBASENAMEASIDENTIFIER___Presenter()
     }
 
-    override func tearDown() {
-        super.tearDown()
-    }
+    override func spec() {
 
-    // MARK: - Test setup
+        // MARK: - Subject under test
 
-    func setup___FILEBASENAMEASIDENTIFIER___Presenter() {
-        sut = ___FILEBASENAMEASIDENTIFIER___Presenter()
-    }
+        var sut: ___FILEBASENAMEASIDENTIFIER___Presenter!
 
-    // MARK: - Test doubles
+        // MARK: - Test lifecycle
 
-    // MARK: - Tests
+        describe("___FILEBASENAMEASIDENTIFIER___Presenter") {
 
-    func testSomething() {
-        // Given
+            beforeEach {
+                sut = ___FILEBASENAMEASIDENTIFIER___Presenter()
+            }
 
-        // When
+            it("<# can do something #>") {
+                // given
+                let outputSpy = ___FILEBASENAMEASIDENTIFIER___PresenterOutputSpy()
+                sut.output = outputSpy
 
-        // Then
+                // when
+
+                // then
+
+            }
+        }
     }
 }

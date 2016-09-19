@@ -6,41 +6,52 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
+import Quick
+import Nimble
+
 @testable import ___PROJECTNAME___
-import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___InteractorTests: XCTestCase {
+class ___FILEBASENAMEASIDENTIFIER___InteractorSpec: QuickSpec {
 
-    // MARK: - Subject under test
+    // MARK: - Output Spy
 
-    var sut: ___FILEBASENAMEASIDENTIFIER___Interactor!
+    class ___FILEBASENAMEASIDENTIFIER___InteractorOutputSpy: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
 
-    // MARK: - Test lifecycle
-
-    override func setUp() {
-        super.setUp()
-        setup___FILEBASENAMEASIDENTIFIER___Interactor()
     }
 
-    override func tearDown() {
-        super.tearDown()
+    // MARK: - Worker Spy
+
+    class ___FILEBASENAMEASIDENTIFIER___WorkerSpy: ___FILEBASENAMEASIDENTIFIER___WorkerProtocol {
+
     }
 
-    // MARK: - Test setup
+    override func spec() {
 
-    func setup___FILEBASENAMEASIDENTIFIER___Interactor() {
-        sut = ___FILEBASENAMEASIDENTIFIER___Interactor()
-    }
+        // MARK: - Subject under test
 
-    // MARK: - Test doubles
+        var sut: ___FILEBASENAMEASIDENTIFIER___Interactor!
 
-    // MARK: - Tests
+        // MARK: - Test lifecycle
 
-    func testSomething() {
-        // Given
+        describe("___FILEBASENAMEASIDENTIFIER___Interactor") {
 
-        // When
+            beforeEach {
+                sut = ___FILEBASENAMEASIDENTIFIER___Interactor()
+            }
 
-        // Then
+            it(<# it can do something #>) {
+                // when
+                let outputSpy = ___FILEBASENAMEASIDENTIFIER___InteractorOutputSpy()
+                sut.output = outputSpy
+
+                let workerSpy = ___FILEBASENAMEASIDENTIFIER___WorkerSpy()
+                sut.worker = workerSpy
+
+                // then
+
+                // given
+                
+            }
+        }
     }
 }

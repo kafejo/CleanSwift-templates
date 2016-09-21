@@ -21,7 +21,6 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___Vi
     func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Request) {
         // NOTE: Create some Worker to do the work
 
-        worker = ___FILEBASENAMEASIDENTIFIER___Worker()
         worker.doSomeWork()
 
         // NOTE: Pass the result to the Presenter

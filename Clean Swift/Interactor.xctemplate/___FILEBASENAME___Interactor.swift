@@ -14,7 +14,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
 
 class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
     var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput!
-    var worker: ___FILEBASENAMEASIDENTIFIER___Worker!
+    var worker: ___FILEBASENAMEASIDENTIFIER___WorkerProtocol!
 
     // MARK: - Business logic
 

@@ -26,6 +26,6 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___Vi
         // NOTE: Pass the result to the Presenter
 
         let response = ___FILEBASENAMEASIDENTIFIER___Response()
-        output.presentSomething(response)
+        output.presentSomething(response: response)
     }
 }

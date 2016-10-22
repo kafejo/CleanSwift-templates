@@ -42,7 +42,7 @@ class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___Router
         // NOTE: Teach the router which scenes it can communicate with
 
         if segue.identifier == "ShowSomewhereScene" {
-            passDataToSomewhereScene(segue)
+            passDataToSomewhereScene(segue: segue)
         }
     }
 

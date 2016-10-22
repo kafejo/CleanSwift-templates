@@ -18,7 +18,8 @@ struct StoryboardReference<S: StoryboardType, T> {
     let id: String
 
     func instantiate() -> T {
-        if let controller = UIStoryboard(name: S.name, bundle: nil).instantiateViewControllerWithIdentifier(id) as? T {
+
+        if let controller = UIStoryboard(name: S.name, bundle: nil).instantiateViewController(withIdentifier: id) as? T {
             return controller
         } else {
             fatalError("Instantiated controller with \(id) has different type than expected!")

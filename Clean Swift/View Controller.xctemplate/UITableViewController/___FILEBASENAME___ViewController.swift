@@ -20,7 +20,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController, ___FI
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance.configure(self)
+        ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance.configure(viewController: self)
     }
 
     // MARK: - View lifecycle
@@ -36,7 +36,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController, ___FI
         // NOTE: Ask the Interactor to do some work
 
         let request = ___FILEBASENAMEASIDENTIFIER___Request()
-        output.doSomething(request)
+        output.doSomething(request: request)
     }
 
     // MARK: - Display logic

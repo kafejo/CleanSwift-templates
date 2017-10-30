@@ -8,9 +8,10 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___WorkerProtocol {
+protocol ___VARIABLE_sceneName___WorkerProtocol {
 
+}
+
+class ___VARIABLE_sceneName___Worker: ___VARIABLE_sceneName___WorkerProtocol {
     // MARK: - Business Logic
-
-    func doSomeWork()
 }

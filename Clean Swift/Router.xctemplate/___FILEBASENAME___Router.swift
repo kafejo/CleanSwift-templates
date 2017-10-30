@@ -11,7 +11,7 @@ import UIKit
 protocol ___VARIABLE_sceneName___RouterInput {
 }
 
-class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RouterInput {
+final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RouterInput {
     weak var viewController: ___VARIABLE_sceneName___ViewController!
 
     // MARK: - Navigation

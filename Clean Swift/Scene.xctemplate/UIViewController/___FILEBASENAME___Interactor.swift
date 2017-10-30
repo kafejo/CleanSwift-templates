@@ -11,7 +11,7 @@ import UIKit
 protocol ___VARIABLE_sceneName___InteractorOutput {
 }
 
-class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___ViewControllerOutput {
+final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___ViewControllerOutput {
     var presenter: ___VARIABLE_sceneName___InteractorOutput!
     var worker: ___VARIABLE_sceneName___WorkerProtocol! = ___VARIABLE_sceneName___Worker()
 

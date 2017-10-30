@@ -10,7 +10,7 @@ import UIKit
 protocol ___VARIABLE_sceneName___ViewControllerOutput {
 }
 
-class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_sceneName___PresenterOutput {
+final class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_sceneName___PresenterOutput {
     var interactor: ___VARIABLE_sceneName___ViewControllerOutput!
     var router: ___VARIABLE_sceneName___RouterInput!
 

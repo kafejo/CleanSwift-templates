@@ -4,12 +4,12 @@
 <dict>
 	<key>DefaultCompletionName</key>
 	<string>MyScene</string>
-  <key>Description</key>
-  <string>This generates a new scene using Uncle Bob's clean architecture. It consists of the view controller, interactor, presenter, and router. You can then create individual workers to supplement the interactor.</string>
-  <key>Kind</key>
-  <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-  <key>Options</key>
-  <array>
+	<key>Description</key>
+	<string>This generates a new scene using Uncle Bob&apos;s clean architecture. It consists of the view controller, interactor, presenter, and router. You can then create individual workers to supplement the interactor.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
 		<dict>
 			<key>Description</key>
 			<string>The name of the scene to create</string>
@@ -24,15 +24,15 @@
 			<key>Type</key>
 			<string>text</string>
 		</dict>
-    <dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-    <dict>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___ViewController</string>
 			<key>Description</key>
@@ -45,8 +45,8 @@
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-    <dict>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___Interactor</string>
 			<key>Description</key>
@@ -59,8 +59,8 @@
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-    <dict>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___Presenter</string>
 			<key>Description</key>
@@ -73,8 +73,8 @@
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-    <dict>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___Router</string>
 			<key>Description</key>
@@ -87,22 +87,8 @@
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-    <dict>
-			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Configurator</string>
-			<key>Description</key>
-			<string>The configurator name</string>
-			<key>Identifier</key>
-			<string>configuratorName</string>
-			<key>Name</key>
-			<string>Configurator Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-    </dict>
-    <dict>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___Worker</string>
 			<key>Description</key>
@@ -115,8 +101,8 @@
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-    <dict>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___Models</string>
 			<key>Description</key>
@@ -129,7 +115,7 @@
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
+		</dict>
 		<dict>
 			<key>Default</key>
 			<string>UIViewController</string>
@@ -150,18 +136,16 @@
 			<key>Values</key>
 			<array>
 				<string>UIViewController</string>
-				<string>UITableViewController</string>
-				<string>UICollectionViewController</string>
 			</array>
 		</dict>
-  </array>
-  <key>Platforms</key>
-  <array>
+	</array>
+	<key>Platforms</key>
+	<array>
 		<string>com.apple.platform.iphoneos</string>
-  </array>
+	</array>
 	<key>SortOrder</key>
 	<string>9</string>
-  <key>Summary</key>
-  <string>This generates a new scene using Uncle Bob's clean architecture.</string>
+	<key>Summary</key>
+	<string>This generates a new scene using Uncle Bob&apos;s clean architecture.</string>
 </dict>
 </plist>

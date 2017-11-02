@@ -8,7 +8,7 @@ Highlights:
 - Compliance with Rubicoin's code style guidelines.
 - No _how to use it_ methods. (RTFM 😉)
 - Templates for BDD with Quick.
-- Overall adjustments (compromises between speed and understandability of the architecture, sometimes it just overkill)
+- Overall adjustments (compromises between speed and understandability of the architecture, sometimes it's just overkill)
 
 
 ## How to install

@@ -1,24 +1,17 @@
 
 # Clean Swift
-## Clean swift templates
+## Clean Swift templates from Rubicoin
 
-This fork enhances:
-  - using optional output to view controller from presenter instead of force cast
-  - remove input protocols for easier and faster development
-  - updated singleton implementation
+Since our decision in August 2016 we are using Clean Swift architecture in Rubicoin's iOS apps. These templates envolved from the original templates available at http://clean-swift.com as we internaly improve and change the architecture to fit our needs.
 
-And some code style:
-  - spacing (uses 4 spaces instead of 2)
-  - leading parenthesis (on the same line as function definition)
-  - use hyphens in MARK comments
+Highlights:
+- Compliance with Rubicoin's code style guidelines.
+- No _how to use it_ methods. (RTFM 😉)
+- Templates for BDD with Quick.
+- Overall adjustments (compromises between speed and understandability of the architecture, sometimes it just overkill)
 
-## Origin
 
-The original templates coming from http://clean-swift.com
-
-To learn more about Clean Swift and the VIP cycle, read:
-http://clean-swift.com/clean-swift-ios-architecture
-
+## How to install
 
 To install the Clean Swift Xcode templates, run:
 
@@ -28,12 +21,17 @@ To uninstall the Clean Swift Xcode templates, run:
 
 > make uninstall_templates
 
-
 ## Authors
 
-- Aleš Kocur, ales@thefuntasty.com
+- Aleš Kocur, ales@rubicoin.com
+
+Thanks for early development and help with exploring the architecture at Funtasty to
 - Jakub Knejzlík, jakub.knejzlik@thefuntasty.com
 - Matěj K. Jirásek, matej.jirasek@thefuntasty.com
+
+## Contribution
+
+If you have any question or an idea for improvement open an issue.
 
 ## License
 
